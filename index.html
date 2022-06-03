@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JogoDaVelha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-main-flex">
+        <div class="container">
+            <div class="first-tela">
+                <div class="first-div">
+                    <div>
+                        <img src="./images/logo.svg" alt="" id="logo_img">
+                    </div>
+                </div>
+                <div class="second-div">
+                    <div class="second-div-container">
+                        <div class="second-div-first">
+                            <h3>PICK PLAYER 1'S MARK</h3>
+                        </div>
+                        <div class="container-buttons">
+                            <div class="container-buttons-margin">
+                                <div class="" id="button-transparent">
+                                    <img src="./images/icon-x-color.svg" alt="" id="img_x_pick">
+                                </div>
+                                <div id="button-color">
+                                    <img src="./images/icon-o-color.svg" alt="" id="img_o_pick">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="div-warning">
+                            <h4>REMEMBER: X GOES FIRST</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="options-start">
+                    <div class="opt1"><button id="new-game-ia">NEW GAME (VS CPU)</button></div>
+                    <div class="opt2"><button id="new-game-human">NEW GAME (VS PLAYER)</button></div>
+                </div>
+            </div>
+            <div class="second-tela">
+                <div class="second-tela-first-div">
+                    <div class="second-logo"><img src="./images/logo.svg" alt=""> </div>
+                    <div class="turn-div">
+                        <div class="turn">
+                            <div class="turn-img"><img src="./images/icon-x-color.svg" alt=""></div>
+                            <div class="span-img">
+                                <span>TURN</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="restart-div">
+                        <div class="restart">
+                            <img src="./images/icon-restart.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="tictactoe">
+                    <div class="a"></div>
+                    <div class="a"></div>
+                    <div class="a"></div>
+                    <div class="a"></div>
+                    <div class="a"></div>
+                    <div class="a"></div>
+                    <div class="a"></div>
+                    <div class="a"></div>
+                    <div class="a"></div>
+                </div>
+                <div class="score-div">
+                    <div class="s1">
+                        <span>X(CPU)</span>
+                        <h3>0</h3>
+                     </div>
+                    <div class="s2">
+                        <span>TIES</span>
+                        <h3>0</h3>
+                    </div>
+                    <div class="s3">
+                        <span>O(YOU)</span>
+                        <h3>0</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="jquery-2.2.1.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
