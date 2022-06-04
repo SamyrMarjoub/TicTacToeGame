@@ -305,6 +305,9 @@ body {
     background-color: #1f3641;
     border-radius: 15px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .score-div {
@@ -346,4 +349,24 @@ body {
 
 h3 {
     margin: 0;
+}
+
+.img-width {
+    width: 60px;
+}
+
+.msg-ia {
+    width: 100%;
+    justify-content: center;
+    display: none;
+    color: #A8BFC9;
+}
+
+.msg-ia span {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.msg-ia-display {
+    display: flex;
 }
