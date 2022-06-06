@@ -141,6 +141,11 @@ $('.q1').click(function () {
         ++scorex
         cond = true
         $('#x-score').html(scorex)
+        setTimeout(function () {
+            $('.results-div2').css('display', 'flex')
+            $('.tela-preta').show()
+        }, 1000)
+
     }
     if (img1O && img2O && img3O || img1O && img4O && img7O || img1O && img5O && img9O || img7O && img8O && img9O || img2O && img5O && img8O || img3O && img5O && img7O || img4O && img5O && img6O || img3O && img6O && img9O) {
         if (img1O && img2O && img3O) {
@@ -203,6 +208,10 @@ $('.q1').click(function () {
         ++scoreo
         cond = true
         $('#o-score').html(scoreo)
+        setTimeout(function () {
+            $('.results-div3').css('display', 'flex')
+            $('.tela-preta').show()
+        }, 1000)
     }
     if (img1.classList.contains('img-width') && img2.classList.contains('img-width')
         && img3.classList.contains('img-width') && img4.classList.contains('img-width')
@@ -292,6 +301,11 @@ $('.q2').click(function () {
         ++scorex
         cond = true
         $('#x-score').html(scorex)
+        setTimeout(function () {
+            $('.results-div2').css('display', 'flex')
+            $('.tela-preta').show()
+        }, 1000)
+
     }
     if (img1O && img2O && img3O || img1O && img4O && img7O || img1O && img5O && img9O || img7O && img8O && img9O || img2O && img5O && img8O || img3O && img5O && img7O || img4O && img5O && img6O || img3O && img6O && img9O) {
         if (img1O && img2O && img3O) {
@@ -355,6 +369,10 @@ $('.q2').click(function () {
         ++scoreo
         cond = true
         $('#o-score').html(scoreo)
+        setTimeout(function () {
+            $('.results-div3').css('display', 'flex')
+            $('.tela-preta').show()
+        }, 1000)
     }
     if (img1.classList.contains('img-width') && img2.classList.contains('img-width')
         && img3.classList.contains('img-width') && img4.classList.contains('img-width')
@@ -444,6 +462,11 @@ $('.q3').click(function () {
         ++scorex
         cond = true
         $('#x-score').html(scorex)
+        setTimeout(function () {
+            $('.results-div2').css('display', 'flex')
+            $('.tela-preta').show()
+        }, 1000)
+
     }
     if (img1O && img2O && img3O || img1O && img4O && img7O || img1O && img5O && img9O || img7O && img8O && img9O || img2O && img5O && img8O || img3O && img5O && img7O || img4O && img5O && img6O || img3O && img6O && img9O) {
         if (img1O && img2O && img3O) {
@@ -507,6 +530,10 @@ $('.q3').click(function () {
         ++scoreo
         cond = true
         $('#o-score').html(scoreo)
+        setTimeout(function () {
+            $('.results-div3').css('display', 'flex')
+            $('.tela-preta').show()
+        }, 1000)
     }
     if (img1.classList.contains('img-width') && img2.classList.contains('img-width')
         && img3.classList.contains('img-width') && img4.classList.contains('img-width')
@@ -596,6 +623,11 @@ $('.q4').click(function () {
         ++scorex
         cond = true
         $('#x-score').html(scorex)
+        setTimeout(function () {
+            $('.results-div2').css('display', 'flex')
+            $('.tela-preta').show()
+        }, 1000)
+
     }
     if (img1O && img2O && img3O || img1O && img4O && img7O || img1O && img5O && img9O || img7O && img8O && img9O || img2O && img5O && img8O || img3O && img5O && img7O || img4O && img5O && img6O || img3O && img6O && img9O) {
         if (img1O && img2O && img3O) {
@@ -658,6 +690,10 @@ $('.q4').click(function () {
         ++scoreo
         cond = true
         $('#o-score').html(scoreo)
+        setTimeout(function () {
+            $('.results-div3').css('display', 'flex')
+            $('.tela-preta').show()
+        }, 1000)
     }
     if (img1.classList.contains('img-width') && img2.classList.contains('img-width')
         && img3.classList.contains('img-width') && img4.classList.contains('img-width')
@@ -747,6 +783,11 @@ $('.q5').click(function () {
         ++scorex
         cond = true
         $('#x-score').html(scorex)
+        setTimeout(function () {
+            $('.results-div2').css('display', 'flex')
+            $('.tela-preta').show()
+        }, 1000)
+
     }
     if (img1O && img2O && img3O || img1O && img4O && img7O || img1O && img5O && img9O || img7O && img8O && img9O || img2O && img5O && img8O || img3O && img5O && img7O || img4O && img5O && img6O || img3O && img6O && img9O) {
         if (img1O && img2O && img3O) {
@@ -809,6 +850,10 @@ $('.q5').click(function () {
         ++scoreo
         cond = true
         $('#o-score').html(scoreo)
+        setTimeout(function () {
+            $('.results-div3').css('display', 'flex')
+            $('.tela-preta').show()
+        }, 1000)
     }
     if (img1.classList.contains('img-width') && img2.classList.contains('img-width')
         && img3.classList.contains('img-width') && img4.classList.contains('img-width')
@@ -898,6 +943,11 @@ $('.q6').click(function () {
         ++scorex
         cond = true
         $('#x-score').html(scorex)
+        setTimeout(function () {
+            $('.results-div2').css('display', 'flex')
+            $('.tela-preta').show()
+        }, 1000)
+
     }
     if (img1O && img2O && img3O || img1O && img4O && img7O || img1O && img5O && img9O || img7O && img8O && img9O || img2O && img5O && img8O || img3O && img5O && img7O || img4O && img5O && img6O || img3O && img6O && img9O) {
         if (img1O && img2O && img3O) {
@@ -960,6 +1010,10 @@ $('.q6').click(function () {
         ++scoreo
         cond = true
         $('#o-score').html(scoreo)
+        setTimeout(function () {
+            $('.results-div3').css('display', 'flex')
+            $('.tela-preta').show()
+        }, 1000)
     }
     if (img1.classList.contains('img-width') && img2.classList.contains('img-width')
         && img3.classList.contains('img-width') && img4.classList.contains('img-width')
@@ -1049,6 +1103,12 @@ $('.q7').click(function () {
         ++scorex
         cond = true
         $('#x-score').html(scorex)
+        setTimeout(function () {
+            $('.results-div2').css('display', 'flex')
+            $('.tela-preta').show()
+        }, 1000)
+
+
     }
     if (img1O && img2O && img3O || img1O && img4O && img7O || img1O && img5O && img9O || img7O && img8O && img9O || img2O && img5O && img8O || img3O && img5O && img7O || img4O && img5O && img6O || img3O && img6O && img9O) {
         if (img1O && img2O && img3O) {
@@ -1111,7 +1171,11 @@ $('.q7').click(function () {
         ++scoreo
         cond = true
         $('#o-score').html(scoreo)
-    }
+        setTimeout(function () {
+            $('.results-div3').css('display', 'flex')
+            $('.tela-preta').show()
+        }, 1000)
+    } 
     if (img1.classList.contains('img-width') && img2.classList.contains('img-width')
         && img3.classList.contains('img-width') && img4.classList.contains('img-width')
         && img5.classList.contains('img-width') && img6.classList.contains('img-width')
@@ -1200,6 +1264,11 @@ $('.q8').click(function () {
         ++scorex
         cond = true
         $('#x-score').html(scorex)
+        setTimeout(function () {
+            $('.results-div2').css('display', 'flex')
+            $('.tela-preta').show()
+        }, 1000)
+
     }
     if (img1O && img2O && img3O || img1O && img4O && img7O || img1O && img5O && img9O || img7O && img8O && img9O || img2O && img5O && img8O || img3O && img5O && img7O || img4O && img5O && img6O || img3O && img6O && img9O) {
         if (img1O && img2O && img3O) {
@@ -1262,6 +1331,10 @@ $('.q8').click(function () {
         ++scoreo
         cond = true
         $('#o-score').html(scoreo)
+        setTimeout(function () {
+            $('.results-div3').css('display', 'flex')
+            $('.tela-preta').show()
+        }, 1000)
     }
     if (img1.classList.contains('img-width') && img2.classList.contains('img-width')
         && img3.classList.contains('img-width') && img4.classList.contains('img-width')
@@ -1351,6 +1424,11 @@ $('.q9').click(function () {
         ++scorex
         cond = true
         $('#x-score').html(scorex)
+        setTimeout(function () {
+            $('.results-div2').css('display', 'flex')
+            $('.tela-preta').show()
+        }, 1000)
+
     }
     if (img1O && img2O && img3O || img1O && img4O && img7O || img1O && img5O && img9O || img7O && img8O && img9O || img2O && img5O && img8O || img3O && img5O && img7O || img4O && img5O && img6O || img3O && img6O && img9O) {
         if (img1O && img2O && img3O) {
@@ -1413,6 +1491,11 @@ $('.q9').click(function () {
         ++scoreo
         cond = true
         $('#o-score').html(scoreo)
+        setTimeout(function () {
+            $('.results-div3').css('display', 'flex')
+            $('.tela-preta').show()
+        }, 1000)
+
     }
     if (img1.classList.contains('img-width') && img2.classList.contains('img-width')
         && img3.classList.contains('img-width') && img4.classList.contains('img-width')
@@ -1630,3 +1713,32 @@ function restart() {
     img8O = false
     img9O = false
 }
+$('.restart-div').click(function () {
+    $('.results-div').css('display', 'flex')
+    $('.tela-preta').show()
+})
+$('#cancel').click(function () {
+    $('.results-div').css('display', 'none')
+    $('.tela-preta').hide()
+})
+$('#restart-button').click(function () {
+    $('.results-div').css('display', 'none')
+    $('.tela-preta').hide()
+    restart()
+})
+$('#quit').click(function () {
+    location.reload()
+})
+$('#next').click(function () {
+    $('.results-div2').css('display', 'none')
+    $('.tela-preta').hide()
+    restart()
+})
+$('#quit2').click(function () {
+    location.reload()
+})
+$('#next2').click(function () {
+    $('.results-div3').css('display', 'none')
+    $('.tela-preta').hide()
+    restart()
+})
