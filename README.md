@@ -1,2 +1,2 @@
 # TicTacToeGame
-<img src='jogodavelha.jpeg'>
+<img src='jogodavelha.jpg'>
